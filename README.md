@@ -1,39 +1,34 @@
 # Hi there, I'm Ozan! 👋
 
-#### 🧬 Biomedical Engineer | 🧠 Deep Learning Engineer | 🏥 Medical AI Researcher
+#### 🚀 AI & Deep Learning Engineer | 🧬 Biomedical Engineer
 
-I am a Biomedical Engineer passionate about bridging the gap between healthcare and artificial intelligence. Since graduating, I have been working as an **Independent Researcher**, dedicating my time to mastering Deep Learning architectures and solving complex problems in medical diagnostics.
-
-My primary focus is building robust AI pipelines that translate raw medical data (DICOM, Signals) into actionable clinical insights.
+As a Biomedical Engineer by foundation, I leverage my domain expertise to develop advanced AI models. I specialize in designing customized **Agentic workflows** and **Hybrid RAG systems**. I am deeply passionate about building end-to-end AI pipelines and architecting production-ready backend systems. Currently, my active research and development efforts are focused on modern **RAG** and **CAG (Cache-Augmented Generation)** architectures.
 
 ![](https://komarev.com/ghpvc/?username=BozyelOzan&color=blue)
 ---
 
 ### 🛠️ Tech Stack & Tools
 
-My technical toolkit covers the entire machine learning lifecycle, from data preprocessing to model optimization:
-
-**Languages & Core:**
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-
-**Deep Learning & Machine Learning:**
-![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![XGBoost](https://img.shields.io/badge/XGBoost-150458?style=for-the-badge&logo=xgboost&logoColor=white)
-
-**Medical Imaging & Vision:**
-![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white) ![MONAI](https://img.shields.io/badge/MONAI-5C3EE8?style=for-the-badge&logo=pytorch&logoColor=white) ![SimpleITK](https://img.shields.io/badge/SimpleITK-3498DB?style=for-the-badge&logo=pypi&logoColor=white)
-
-**Optimization & Data Science:**
-![Optuna](https://img.shields.io/badge/Optuna-406893?style=for-the-badge&logo=optuna&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white) ![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black) ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white) ![OpenAI](https://img.shields.io/badge/LLM_APIs-412991?style=flat-square&logo=openai&logoColor=white) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white) ![Scikit-Learn](https://img.shields.io/badge/Scikit_Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white) ![XGBoost](https://img.shields.io/badge/XGBoost-17A000?style=flat-square) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=flat-square&logo=fastapi&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) ![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white) ![WandB](https://img.shields.io/badge/WandB-FFBE00?style=flat-square&logo=weightsandbiases&logoColor=white)
 
 ---
 
-### 🔭 What I'm Working On
+### 🔭 Featured Projects
+* **Clinical Insight Agent (Hybrid RAG)**
+  * Architected an autonomous agent to query ClinicalTrials.gov, using **LangGraph** for smart routing between SQL and **ChromaDB**.
+  * Developed a real-time ETL pipeline, strictly grounding AI responses to prevent hallucinations.
 
-* 🩻 **Medical Image Segmentation:** Developing U-Net based architectures for precise tumor/organ segmentation in MRI and CT scans.
-* 🎯 **Model Optimization:** Using **Optuna** for hyperparameter tuning to squeeze the best performance out of models.
-* 📊 **Ensemble Learning:** Combining Deep Learning models with Gradient Boosting (XGBoost/CatBoost) for tabular medical data analysis.
+* **ArXiv Insights (Agentic RAG Assistant)**
+  * Built an Agentic RAG pipeline to dynamically search, chunk, and vectorize academic papers using **FAISS** and Sentence Transformers.
+  * Implemented LLM-based intent classification to bypass redundant vector searches.
 
----
+* **End-to-End Prediction Pipeline with MLOps**
+  * Built a production-ready ML forecasting pipeline using SOTA algorithms (**XGBoost**).
+  * Accelerated feature engineering using **RAPIDS (cuDF)** and tracked experiments with **MLflow**.
+
+* **Brain Tumor Segmentation & Volumetric Analysis**
+  * Developed a deep learning pipeline to automate Glioblastoma tumor segmentation from raw MRI (DICOM) data using **TensorFlow** and **OpenCV**.
+
 
 ### 📫 Connect with Me
 
