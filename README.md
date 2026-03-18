@@ -18,10 +18,6 @@ As a Biomedical Engineer by foundation, I leverage my domain expertise to develo
   * Architected an autonomous agent to query ClinicalTrials.gov, using **LangGraph** for smart routing between SQL and **ChromaDB**.
   * Developed a real-time ETL pipeline, strictly grounding AI responses to prevent hallucinations.
 
-* **ArXiv Insights (Agentic RAG Assistant)**
-  * Built an Agentic RAG pipeline to dynamically search, chunk, and vectorize academic papers using **FAISS** and Sentence Transformers.
-  * Implemented LLM-based intent classification to bypass redundant vector searches.
-
 * **End-to-End Prediction Pipeline with MLOps**
   * Built a production-ready ML forecasting pipeline using SOTA algorithms (**XGBoost**).
   * Accelerated feature engineering using **RAPIDS (cuDF)** and tracked experiments with **MLflow**.
