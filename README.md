@@ -1,8 +1,8 @@
 # Hi there, I'm Ozan! 👋
 
-#### 🚀 AI & Deep Learning Engineer | 🧬 Biomedical Engineer
+#### 🚀 AI Engineer | Agentic Systems & RAG Architectures | 🧬 Biomedical Engineering
 
-As a Biomedical Engineer by foundation, I leverage my domain expertise to develop advanced AI models. I specialize in designing customized **Agentic workflows** and **Hybrid RAG systems**. I am deeply passionate about building end-to-end AI pipelines and architecting production-ready backend systems. Currently, my active research and development efforts are focused on modern **RAG** and **CAG (Cache-Augmented Generation)** architectures.
+As a Biomedical Engineer by foundation, I leverage my domain expertise to develop advanced AI solutions. I specialize in designing **Agentic Workflows**, **Hybrid RAG systems**, and production-ready distributed backend services. I am passionate about building end-to-end AI pipelines that go beyond prototypes — from architecture decisions to deployment. Currently exploring modern **RAG** and **CAG (Cache-Augmented Generation)** architectures.
 
 ![](https://komarev.com/ghpvc/?username=BozyelOzan&color=blue)
 ---
@@ -14,16 +14,26 @@ As a Biomedical Engineer by foundation, I leverage my domain expertise to develo
 ---
 
 ### 🔭 Featured Projects
+
+* **Paperwise — Distributed Hybrid RAG System** *(Active Development)*
+  * Designed and built an end-to-end hybrid RAG system enabling natural language queries over real-time arXiv paper ingestion.
+  * Implemented a **dual-collection Qdrant pipeline** separating abstract-level semantic selection from full-text chunk retrieval — improving mean chunk relevance score from **0.421 to 0.610** across prototypes.
+  * Engineered **LLM-driven query analysis** to extract domain-optimized search terms and rank up to 80 candidate documents by embedding similarity.
+  * Evolved architecture from single-process CLI to a **distributed microservice system** (FastAPI, RabbitMQ worker pool, Redis cache) supporting concurrent multi-user sessions with token-by-token SSE streaming.
+  * Developed across **3 self-contained prototypes** with documented architecture comparisons; LLM judge evaluation improved from **4.4/5 to 5.0/5** between Prototype 1 and Prototype 2.
+
 * **Clinical Insight Agent (Hybrid RAG)**
-  * Architected an autonomous agent to query ClinicalTrials.gov, using **LangGraph** for smart routing between SQL and **ChromaDB**.
-  * Developed a real-time ETL pipeline, strictly grounding AI responses to prevent hallucinations.
+  * Architected an autonomous agent to query ClinicalTrials.gov, using **LangGraph** for intelligent routing between SQL and **ChromaDB**.
+  * Developed a real-time ETL pipeline, strictly grounding LLM responses in source records to prevent hallucinations.
+  * Deployed an asynchronous **FastAPI** backend with interactive **Streamlit** UI.
 
 * **End-to-End Prediction Pipeline with MLOps**
-  * Built a production-ready ML forecasting pipeline using SOTA algorithms (**XGBoost**).
+  * Built a production-ready ML forecasting pipeline using **XGBoost** and SOTA algorithms.
   * Accelerated feature engineering using **RAPIDS (cuDF)** and tracked experiments with **MLflow**.
 
 * **Brain Tumor Segmentation & Volumetric Analysis**
   * Developed a deep learning pipeline to automate Glioblastoma tumor segmentation from raw MRI (DICOM) data using **TensorFlow** and **OpenCV**.
+  * Calculated precise tumor volumes utilizing DICOM voxel spacing metadata.
 
 
 ### 📫 Connect with Me
